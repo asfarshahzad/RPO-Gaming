@@ -1,0 +1,1110 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/* Header-section-start */
+.header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+    z-index: 1;
+}
+
+.menu-bar {
+    background-image: url(./Acids/Icons/menu-svgrepo-com.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background-color: #FFF706;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.head-logo {
+    width: 180px;
+    height: 49px;
+    margin-left: 25px;
+}
+
+.head-logo .logo {
+    width: 180px;
+    height: 49px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    gap: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+li a {
+    padding: 8px 10px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+li a:hover {
+    background-color: #FFF706;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    transition:0.10s all ease-in-out;
+}
+
+.head-btns {
+    margin-right: 25px;
+}
+
+.login-btn {
+    padding: 12px 20px;
+    border-radius: 30px;
+    background: transparent;
+    color: #f1f1f1;
+    font-weight: 600;
+    border: 1px solid #f1f1f1bd;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.reg-btn {
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-color: #FFF706;
+    color: black;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.reg-btn:hover,
+.login-btn:hover {
+    box-shadow: 0px 0px 5px #FFF706;
+}
+
+/* Header-section-end */
+
+
+/* Section-one-start */
+.bg-image {
+    background-image: url(./Acids/Images/bg-img.jpeg);
+    background-size: cover;
+    background-color: black;
+    height: 633px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bg-image img {
+    width: 96%;
+}
+
+.bg-btn {
+    padding: 10px;
+    width: 96%;
+    background-color: #FFF706;
+    color: black;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.bg-btn span {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.bg-btn:hover .overlay {
+    width: 100%;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.text {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-shadow: 1px 1px 10px #fff706a2;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section-one-end */
+
+
+/* Section-two-start */
+.content-section {
+    background-color: black;
+    padding: 60px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-sec-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+}
+
+.card-head {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.card-box {
+    background-color: #26262646;
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 15px 20px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.card-box:hover {
+    background-color: #262626;
+    transform: scale(1.01);
+}
+
+.card-box .cd-box-img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+.card-top-sec {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-top-sec button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFF706;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    border: 1px solid #FFF706;
+    cursor: pointer;
+}
+
+.card-top-sec button:hover {
+    box-shadow: 0px 0px 5px #FFF706;
+}
+
+.card-top-sec span {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.card-top-sec h3 {
+    font-size: 24px;
+    color: white;
+    width: 58%;
+}
+
+.card-top-sec img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.card-top-sec img:hover {
+    transform: translate(6px, -6px);
+    box-shadow: 1px 1px 5px #FFF706;
+}
+
+.card-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-bottom a{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-bottom a:hover{
+    background-color: #FFF706;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section-two-start */
+
+
+/* FAQ Section Start */
+.details-box {
+    border-top: 1px solid #fff706b4;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt-box p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 3px;
+}
+
+.txt-box .second {
+    font-size: 14px;
+}
+
+.icon-box .cross-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.icon-box .cross-icon:hover,
+.icon-box .plus-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 5px #FFF706;
+}
+
+.icon-box .plus-icon {
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.last-box {
+    border-bottom: 1px solid #fff706b4;
+}
+
+/* FAQ Section Start */
+
+/* promo-section-start */
+.promo-section-container {
+    background-color: black;
+    padding: 50px 0px 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Promo-Section {
+    background-image: url(./Acids/Images/Banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #FFF706;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.promo-text-box {
+    width: 50%;
+    padding-left: 25px;
+}
+
+.promo-text-box h1 {
+    color: black;
+    font-size: 64px;
+    line-height: 70px;
+}
+
+.promo-text-box p {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.promo-text-box button {
+    background-color: black;
+    border: none;
+    padding: 13px 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: #FFF706;
+    cursor: pointer;
+}
+
+.promo-text-box button:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+
+/* promo-section-end */
+
+
+/* Footer-section-start */
+.footer-section {
+    width: 100%;
+    background-color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.details-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 25px 40px;
+}
+
+.footer-img img {
+    width: 250px;
+}
+
+.nav-details {
+    display: flex;
+}
+
+.nav-details ul li {
+    list-style-type: none;
+    padding: 0px 20px 15px;
+}
+
+.nav-details ul li a {
+    font-size: 1em;
+}
+
+.footer-btn button {
+    background-color: #FFF706;
+    border: none;
+    padding: 13px 35px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer-btn button:hover {
+    box-shadow: 0px 0px 5px #FFF706;
+}
+
+.copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.copy-right p {
+    font-size: 14px;
+}
+
+.copy-right img {
+    width: 38px;
+    height: 38px;
+    padding: 5px;
+    background-color: #FFF706;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+
+.copy-right img:hover {
+    transform: translate(0px, -10px);
+    box-shadow: 0px 0px 5px #FFF706;
+}
+
+/* Footer-section-end */
+
+
+/* Media-Query-Start */
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    .header {
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    .head-logo {
+        width: 170px;
+        height: 49px;
+        margin-left: 25px;
+    }
+
+    .head-logo .logo {
+        width: 170px;
+        height: 49px;
+    }
+
+    .bg-image img {
+        margin-bottom: 5px;
+    }
+
+    .navbar {
+        font-size: 15px;
+        gap: 5px;
+    }
+
+    .login-btn {
+        padding: 12px 17px;
+        cursor: pointer;
+    }
+
+    .reg-btn {
+        padding: 13px 20px;
+        cursor: pointer;
+    }
+
+    .card-head {
+        font-size: 50px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .card-box {
+        background-color: #26262646;
+        width: 44.5%;
+        margin-bottom: 30px;
+        padding: 15px 20px 20px;
+        border-radius: 15px;
+    }
+
+    .card-top-sec h3 {
+        font-size: 21px;
+        color: white;
+        width: 58%;
+    }
+
+    .bg-btn {
+        font-size: 17px;
+    }
+
+    .Promo-Section {
+        height: 400px;
+        width: 100%;
+    }
+
+    .promo-text-box {
+        width: 40%;
+        padding-left: 25px;
+    }
+
+    .promo-text-box h1 {
+        color: black;
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .promo-text-box p {
+        font-size: 16px;
+    }
+
+    .promo-text-box button {
+        padding: 13px 30px;
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:900px) {
+    .header {
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .menu-bar {
+        background-image: url(./Acids/Icons/menu-svgrepo-com.svg);
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        padding: 7px;
+        background-color: #FFF706;
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .head-logo {
+        text-align: center;
+        width: auto;
+        /* background-color: #FFF706; */
+    }
+
+    .head-logo .logo {
+        width: 175px;
+        height: 49px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .reg-btn {
+        padding: 13px 20px;
+        font-size: 13px;
+        cursor: pointer;
+        margin: 0px;
+    }
+
+    .bg-image img {
+        margin-bottom: 5px;
+    }
+
+    .bg-image {
+        background-image: url(./Acids/Images/bg-img.jpeg);
+        background-size: cover;
+        background-color: black;
+        height: 446px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .card-box .cd-box-img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card-head {
+        font-size: 40px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    .card-box {
+        background-color: #26262646;
+        width: 45%;
+        margin-bottom: 30px;
+        padding: 15px 15px 20px;
+        border-radius: 15px;
+    }
+
+    .card-top-sec h3 {
+        font-size: 19px;
+        color: white;
+        width: 58%;
+    }
+
+    .bg-btn {
+        font-size: 16px;
+    }
+
+    .Promo-Section {
+        height: 350px;
+        width: 100%;
+    }
+
+    .promo-text-box {
+        width: 40%;
+        padding-left: 25px;
+    }
+
+    .promo-text-box h1 {
+        color: black;
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .promo-text-box p {
+        font-size: 15px;
+    }
+
+    .promo-text-box button {
+        padding: 13px 25px;
+        font-size: 12px;
+    }
+
+    .footer-img img {
+        width: 200px;
+    }
+
+    .nav-details ul li {
+        padding: 0px 10px 15px;
+    }
+
+    .footer-btn button {
+        padding: 13px 20px;
+        font-size: 13px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .header {
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .menu-bar {
+        background-image: url(./Acids/Icons/menu-svgrepo-com.svg);
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        padding: 5px;
+        background-color: #FFF706;
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .head-logo {
+        text-align: center;
+        width: auto;
+        /* background-color: #FFF706; */
+    }
+
+    .head-logo .logo {
+        width: 165px;
+        height: 49px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .reg-btn {
+        padding: 13px 15px;
+        font-size: 12.5px;
+        cursor: pointer;
+        margin: 0px;
+    }
+
+    .bg-image img {
+        margin-bottom: 10px;
+    }
+
+    .bg-image {
+        background-image: url(./Acids/Images/bg-img.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: black;
+        height: 446px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .content-sec-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-box .cd-box-img {
+        width: 100%;
+    }
+
+    .card-head {
+        font-size: 45px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .card-box {
+        background-color: #26262646;
+        width: 80%;
+        margin-bottom: 30px;
+        padding: 15px 25px 20px;
+        border-radius: 15px;
+    }
+
+    .card-top-sec h3 {
+        font-size: 22px;
+        color: white;
+        width: 58%;
+    }
+
+    .bg-image img {
+        width: 94%;
+    }
+
+    .bg-btn {
+        width: 94%;
+        font-size: 15px;
+    }
+
+    .Promo-Section {
+        height: 250px;
+        width: 100%;
+    }
+
+    .promo-text-box {
+        width: 40%;
+        padding-left: 25px;
+    }
+
+    .promo-text-box h1 {
+        color: black;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .promo-text-box p {
+        font-size: 14px;
+    }
+
+    .promo-text-box button {
+        padding: 13px 18px;
+        font-size: 12px;
+    }
+
+    .details-section {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 25px 40px;
+    }
+
+    .footer-img {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-details {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-btn button {
+        font-size: 13px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .txt-box p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 3px;
+    }
+
+    .txt-box .second {
+        font-size: 13px;
+    }
+
+    .icon-box .cross-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .icon-box .plus-icon {
+        width: 23px;
+        height: 23px;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-right: 2px;
+    }
+
+    .copy-right p {
+        width: 75%;
+        font-size: 13px;
+    }
+
+    .copy-right img {
+        width: 32px;
+        height: 32px;
+        padding: 5px;
+        background-color: #FFF706;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .menu-bar {
+        background-image: url(./Acids/Icons/menu-svgrepo-com.svg);
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        padding: 4px;
+        background-color: #FFF706;
+        display: flex;
+        margin-left: 15px;
+    }
+
+    .head-logo {
+        text-align: center;
+        width: auto;
+        /* background-color: #FFF706; */
+    }
+
+    .head-logo .logo {
+        width: 140px;
+        height: 49px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .head-btns {
+        margin-right: 15px;
+    }
+
+    .reg-btn {
+        padding: 12px 11px;
+        font-size: 12px;
+        cursor: pointer;
+        margin: 0px;
+    }
+
+    .bg-image {
+        background-image: url(./Acids/Images/bg-img.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: black;
+        height: 446px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .bg-image img {
+        margin-bottom: 10px;
+    }
+
+    .content-section {
+        padding: 60px 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .content-sec-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-box .cd-box-img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card-head {
+        font-size: 38px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .card-box {
+        background-color: #26262646;
+        width: 90%;
+        margin-bottom: 30px;
+        padding: 15px 20px 20px;
+        border-radius: 15px;
+    }
+
+    .card-top-sec h3 {
+        font-size: 18px;
+        color: white;
+        width: 58%;
+    }
+
+    .bg-image img {
+        width: 93.5%;
+    }
+
+    .bg-btn {
+        width: 93.5%;
+        font-size: 15px;
+    }
+
+    .txt-box p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 3px;
+    }
+
+    .txt-box .second {
+        font-size: 12px;
+    }
+
+    .icon-box .cross-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .icon-box .plus-icon {
+        width: 21px;
+        height: 21px;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-right: 2px;
+    }
+
+    .Promo-Section {
+        height: 190px;
+        width: 100%;
+    }
+
+    .promo-text-box {
+        width: 38%;
+        padding-left: 25px;
+    }
+
+    .promo-text-box h1 {
+        color: black;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .promo-text-box p {
+        font-size: 12px;
+    }
+
+    .promo-text-box button {
+        padding: 13px 12px;
+        font-size: 10px;
+    }
+
+    .details-section {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 25px 25px 40px;
+    }
+
+    .footer-img {
+        height: 60px;
+        width: auto;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .nav-details {
+        width: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-btn button {
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .copy-right p {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    .copy-right img {
+        width: 28px;
+        height: 28px;
+        padding: 5px;
+        background-color: #FFF706;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+}
+/* Media-Query-end */
